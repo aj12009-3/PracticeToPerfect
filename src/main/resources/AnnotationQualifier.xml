@@ -9,11 +9,21 @@
    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
     <context:annotation-config/>
 
+    <bean id="profile" class="org.jatin.spring.Annotations.qualifier.Profile">
+
+    </bean>
+
     <bean id="student1" class="org.jatin.spring.Annotations.qualifier.Student">
         <property name="name" value="ABC"/>
 
         <!-- comment below property, it will still work-->
-        <!--<property name="age" value="10"/>-->
+        <property name="age" value="10"/>
+    </bean>
+    <bean id="student2" class="org.jatin.spring.Annotations.qualifier.Student">
+        <property name="name" value="DEF"/>
+
+        <!-- comment below property, it will still work-->
+        <property name="age" value="11"/>
     </bean>
 
 </beans>
