@@ -4,13 +4,17 @@
        xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation = "http://www.springframework.org/schema/beans
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
-
+    <!-- -Required for normal application and PostProcessing ( along with init and destroy methods)-->
     <bean id = "helloWorld" class = "org.jatin.spring.HelloWorld" scope="singleton" destroy-method="destroy" init-method="init">
         <property name = "message" value = "Hello World!"/>
     </bean>
+
     <bean id = "helloWorld1" class = "org.jatin.spring.HelloWorld" scope="singleton">
     </bean>
     <bean id = "helloWorld2" class = "org.jatin.spring.HelloWorld" scope="prototype">
     </bean>
+
+    <!-- Required for post processing -->
+    <bean class="org.jatin.spring.InitHelloWorld"/>
 
 </beans>

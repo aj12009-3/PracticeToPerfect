@@ -31,6 +31,13 @@ public class MainApp {
 //        System.out.println(objB.getMessage());
 
         // Init and Destroy method usage
+//        AbstractApplicationContext applicationContext = new ClassPathXmlApplicationContext("Beans.xml");
+//        HelloWorld obj = (HelloWorld) applicationContext.getBean("helloWorld");
+//        System.out.println(obj.getMessage());
+//        //calls destroy method
+//        applicationContext.registerShutdownHook();
+
+        // BeanPostProcessor usage
         AbstractApplicationContext applicationContext = new ClassPathXmlApplicationContext("Beans.xml");
         HelloWorld obj = (HelloWorld) applicationContext.getBean("helloWorld");
         System.out.println(obj.getMessage());
