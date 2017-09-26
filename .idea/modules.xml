@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PracticeToPerfect.iml" filepath="$PROJECT_DIR$/.idea/modules/PracticeToPerfect.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PracticeToPerfect_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PracticeToPerfect_main.iml" group="PracticeToPerfect" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PracticeToPerfect_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PracticeToPerfect_test.iml" group="PracticeToPerfect" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src.iml" filepath="$PROJECT_DIR$/.idea/modules/src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src_main.iml" filepath="$PROJECT_DIR$/.idea/modules/src_main.iml" group="src" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src_test.iml" filepath="$PROJECT_DIR$/.idea/modules/src_test.iml" group="src" />
     </modules>
   </component>
 </project>
